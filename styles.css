@@ -1,0 +1,480 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Fredoka", sans-serif;
+    font-style: normal;    
+}
+::selection{
+    background-color:#000000;
+    color: white;
+}
+/* ------------------------------Nav bar styling ------------------------------------------------------------------------------- */
+
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: last baseline;
+    /* border: 2px solid black; */
+    height: 90px;
+    /* background-color: aquamarine; */
+}
+#nav-list ul li{
+    list-style-type: none;
+    /* margin-right: 80px; */
+    /* text-decoration: none; */
+    /* margin-right: 70px; */
+    width: 135px;
+    /* border: 2px solid black; */
+
+}
+
+#nav-list ul{
+    height: 30px;
+    width: 750px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size: 19px;
+    /* border: 2px solid red; */
+    /* padding: 8px; */
+}
+
+#name{
+    width: 350px;
+    /* border: 2px solid red; */
+    margin-right: 100px;
+    font-size: 25px;
+    font-weight: 500;
+}
+#name:hover{
+    text-shadow: 2px 3px 5px rgb(30, 255, 0);
+    font-size: 25px;
+    color: #9e9292;
+}
+#nav-list ul li a{
+    text-decoration: none;
+    color: black;
+}
+#nav-list ul li a:hover{
+    color: white;
+    text-shadow: 2px 2px 8px red;
+    font-size: 20px;
+
+}
+
+/* -------------------------------------------Section -1 Styling----------------------------------------------- */
+
+#one{
+    /* width: 500px; */
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    /* margin-top: 30px; */
+}
+#photo img{
+    /* border: 2px solid red; */
+    width: 250px;
+    border-radius: 50%;
+    margin-right: 50px;
+    box-shadow: 2px 3px 25px 8px rgb(149, 67, 226);
+}
+#bio{
+    width: 280px;
+    height: 250px;
+    line-height: 55px;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+#bio .one{
+    font-size: 18px;
+}
+#bio .two{
+    font-size: 35px;
+    font-weight: 500;
+   
+}
+#bio .three{
+    font-size: 25px;
+}
+#contacinfo p{
+    display: inline;
+    background-color: black;
+    font-size: 13px;
+    border-radius: 35px;
+    padding: 7px; 
+}
+#contacinfo p:hover{
+    background-color: white;
+    
+}
+#contacinfo p a:hover{
+    color: black;
+}
+#contacinfo p a{
+    color: white;
+    text-decoration: none;   
+}
+.cone{
+    border: 2px solid black;
+}
+
+.ctwo{
+    border: 2px solid black;
+}
+
+/* -------------------------------------------Section -2 Styling----------------------------------------------- */
+
+#two{
+    position: relative;
+    left: 200px;
+    text-align: center;
+    /* border: 2px solid black; */
+    width: 900px;
+    height: 300px;
+    font-size: 20px;
+}
+#heading1{
+    font-size: 33px;
+    font-weight: 500;
+}
+#about{
+    position: absolute;
+    top: 80px;
+
+    line-height: 35px;
+    font-weight: 400;
+}
+
+/* -------------------------------------------Section -3 Styling----------------------------------------------- */
+
+#three{
+    /* width: 100%; */
+    height: 350px;
+    /* border: 2px solid black; */
+    
+}
+#heading2{
+    /* position: relative; */
+    /* left: 600px; */
+    /* bottom: 30px; */
+    /* margin: 40px 0px 30px 615px; */
+    font-size: 33px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#skillbox{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: last baseline; */
+    margin-top: 40px;
+}
+#skillheading{
+    color: rgb(119, 119, 119);
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+}
+#skillbox1{
+    border: 2px solid rgb(186, 184, 184);
+    width: 350px;
+    border-radius: 30px;
+    padding: 15px;
+}
+#skillbox2{
+    border: 2px solid rgb(186, 184, 184);
+    width: 350px;
+    border-radius: 30px;
+    padding: 15px;
+}
+#skillbox3{
+    border: 2px solid rgb(186, 184, 184);
+    width: 250px;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.b1{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px;
+}
+.b2{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px;
+}
+.b3{
+    margin-top: 30px;
+}
+#htmlbox{
+    display: flex;
+    margin-bottom: 30px;
+}
+#cssbox{
+    display: flex;
+}
+#bsbox{
+    display: flex;
+    margin-bottom: 30px;
+}
+#jsbox{
+    display: flex;
+}
+#javabox{
+    display: flex;
+    margin-bottom: 30px;
+}
+#jdbcbox{
+    display: flex;
+}
+#servletbox{
+    display: flex;
+    margin-bottom: 30px;
+}
+#jspbox{
+    display: flex;
+}
+#oraclebox{
+    display: flex;
+    
+}
+#tickmark{
+    margin-right: 17px;
+    margin-top: 3px;
+}
+#p1{
+    font-size: 19px;
+    font-weight: 500;
+}
+#p2{
+    color: rgb(119, 119, 119);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* -------------------------------------------Section-4 Styling----------------------------------------------- */
+
+#projectbox{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 20px; */
+}
+
+#projsubbox1{
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+#projsubbox2{
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+#projsubbox1 img{
+     width: 220px;
+     height: 220px;
+     border-radius: 30px;
+}
+
+#projsubbox2 img{
+    width: 220px;
+    height: 220px;
+    border-radius: 30px;
+
+}
+#bookstore{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+#plantstore{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+#github a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#github{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    /* width: 70px; */
+}
+
+/* -------------------------------------------Section-5 Styling----------------------------------------------- */
+
+/* #fifth{
+    /* border: 2px solid black; */
+    /* margin-top: 50px; */
+    /* display: flex;
+    justify-content: space-around; 
+}*/
+
+/* #internshipbox{
+    display: flex;
+    justify-content: space-around;
+
+} */
+
+/* #certificatebox{
+    display: flex;
+    justify-content: space-around;
+} */
+
+/* #internshipbox img{
+    width: 320px;
+    height: 250px;
+    border: 2px solid rgb(107, 107, 107);
+    border-radius: 15px;
+} */
+
+/* #certificatebox img{
+    width: 320px;
+    height: 250px;
+    border: 2px solid rgb(107, 107, 107);
+    border-radius: 15px;
+} */
+
+/* #internname{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+} */
+
+/* #certifiname{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 40px;
+    /* margin-top: 30px; 
+} */
+
+/* #namesbox{
+    display: flex;
+    justify-content: space-around;
+} */
+#fifth{
+    position: relative;
+    left: 450px;
+    top: 30px;
+    border: 2px solid rgb(119, 119, 119);;
+    border-radius: 5px;
+    width: 400px;
+    height: 300px;
+}
+
+#fifth:hover{
+    box-shadow: 2px 3px 25px 8px rgb(187, 64, 64);
+    border-color: white;
+}
+
+#heading3{
+    font-size: 33px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 120px;
+}
+#internname1{
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#internname2{
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#picon1 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+#picon1 a:hover{
+    color: green;
+    font-weight: 500;
+}
+#picon1 i{
+    margin-left: 94px;
+}
+
+/* -------------------------------------------Section-6 Styling----------------------------------------------- */
+#heading3{
+    margin-bottom: 30px;
+}
+#sixth{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 250px;
+    padding: 20px 0px;
+    width: 800px;
+    border: 2px solid rgb(119, 119, 119);;
+    border-radius: 30px;
+}
+
+#sixth a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+
+#sixth i{
+    margin-right: 7px;
+}
+
+#linkedin:hover a{
+    color: blue;
+}
+#linkedin:hover{
+    color: blue;
+}
+#insta:hover a{
+    color: rgb(224, 32, 90);
+}
+#insta:hover{
+    color: rgb(224, 32, 90);
+}
+#fb:hover a{
+    color: rgb(49, 49, 173);
+}
+#fb:hover{
+    color: rgb(49, 49, 173);
+}
+
+/* -------------------------------------------Footer Styling----------------------------------------------- */
+
+footer{
+    text-align: center;
+    margin: 40px 0px;
+    font-size: 17px;
+    font-weight: 500;
+}
